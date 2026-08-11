@@ -1,25 +1,58 @@
 {
-  "course_id": "aqa_gcse_geography",
-  "course_title": "AQA GCSE Geography",
+  "course_id": "aqa_gcse_computer_science",
+  "course_title": "AQA GCSE Computer Science",
   "level": "GCSE",
   "target_turns": 5,
   "topics": {
-    "Living with the physical environment": [
-      "The challenge of natural hazards",
-      "The living world",
-      "Physical landscapes in the UK"
+    "Fundamentals of algorithms": [
+      "Representing algorithms",
+      "Efficiency of algorithms",
+      "Searching algorithms",
+      "Sorting algorithms"
     ],
-    "Challenges in the human environment": [
-      "Urban issues and challenges",
-      "The changing economic world",
-      "The challenge of resource management"
+    "Programming": [
+      "Data types",
+      "Programming concepts",
+      "Control flow (sequence, selection, iteration)",
+      "Data structures (arrays)",
+      "String handling",
+      "Subroutines and functions"
     ],
-    "Geographical applications": [
-      "Issue evaluation",
-      "Fieldwork"
+    "Fundamentals of data representation": [
+      "Number bases",
+      "Units of information",
+      "Character encoding",
+      "Representing images",
+      "Representing sound",
+      "Data compression"
     ],
-    "Geographical skills": [
-      "Geographical skills"
+    "Computer systems": [
+      "Hardware and software",
+      "Boolean logic",
+      "Software classification",
+      "Systems architecture"
+    ],
+    "Fundamentals of computer networks": [
+      "Network topologies",
+      "Types of network",
+      "Network hardware",
+      "Protocols and layering"
+    ],
+    "Cyber security": [
+      "Cyber security threats",
+      "Social engineering",
+      "Malicious code",
+      "Methods of detection and prevention"
+    ],
+    "Relational databases and structured query language (SQL)": [
+      "Relational databases",
+      "Structured Query Language (SQL)"
+    ],
+    "Ethical, legal and environmental impacts of digital technology on wider society, including issues of privacy": [
+      "Ethical impacts",
+      "Legal impacts",
+      "Environmental impacts",
+      "Privacy issues"
     ]
   }
 }
