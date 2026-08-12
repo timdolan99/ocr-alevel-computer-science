@@ -1,58 +1,31 @@
 {
-  "course_id": "aqa_gcse_computer_science",
-  "course_title": "AQA GCSE Computer Science",
-  "level": "GCSE",
-  "target_turns": 5,
+  "course_id": "ocr_a_level_computer_science",
+  "course_title": "OCR A Level Computer Science",
+  "level": "A-Level",
+  "target_turns": 7,
   "topics": {
-    "Fundamentals of algorithms": [
-      "Representing algorithms",
-      "Efficiency of algorithms",
-      "Searching algorithms",
-      "Sorting algorithms"
-    ],
-    "Programming": [
+    "Computer Systems": [
+      "Structure and function of the processor",
+      "Types of processor",
+      "Input, output and storage",
+      "Systems software",
+      "Software development",
+      "Types of programming language",
       "Data types",
-      "Programming concepts",
-      "Control flow (sequence, selection, iteration)",
-      "Data structures (arrays)",
-      "String handling",
-      "Subroutines and functions"
+      "Data structures",
+      "Boolean algebra",
+      "Legal, moral, cultural and ethical issues"
     ],
-    "Fundamentals of data representation": [
-      "Number bases",
-      "Units of information",
-      "Character encoding",
-      "Representing images",
-      "Representing sound",
-      "Data compression"
+    "Algorithms and Programming": [
+      "Elements of computational thinking",
+      "Problem solving and programming",
+      "Algorithms"
     ],
-    "Computer systems": [
-      "Hardware and software",
-      "Boolean logic",
-      "Software classification",
-      "Systems architecture"
-    ],
-    "Fundamentals of computer networks": [
-      "Network topologies",
-      "Types of network",
-      "Network hardware",
-      "Protocols and layering"
-    ],
-    "Cyber security": [
-      "Cyber security threats",
-      "Social engineering",
-      "Malicious code",
-      "Methods of detection and prevention"
-    ],
-    "Relational databases and structured query language (SQL)": [
-      "Relational databases",
-      "Structured Query Language (SQL)"
-    ],
-    "Ethical, legal and environmental impacts of digital technology on wider society, including issues of privacy": [
-      "Ethical impacts",
-      "Legal impacts",
-      "Environmental impacts",
-      "Privacy issues"
+    "Programming Project": [
+      "Analysis of the problem",
+      "Design of the solution",
+      "Developing the solution",
+      "Evaluation"
     ]
   }
 }
