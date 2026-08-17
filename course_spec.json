@@ -1,31 +1,133 @@
 {
-  "course_id": "ocr_a_level_computer_science",
-  "course_title": "OCR A Level Computer Science",
-  "level": "A-Level",
-  "target_turns": 7,
+  "course_id": "aqa_gcse_combined_science_trilogy",
+  "course_title": "AQA GCSE Combined Science: Trilogy",
+  "level": "GCSE",
+  "target_turns": 5,
   "topics": {
-    "Computer Systems": [
-      "Structure and function of the processor",
-      "Types of processor",
-      "Input, output and storage",
-      "Systems software",
-      "Software development",
-      "Types of programming language",
-      "Data types",
-      "Data structures",
-      "Boolean algebra",
-      "Legal, moral, cultural and ethical issues"
-    ],
-    "Algorithms and Programming": [
-      "Elements of computational thinking",
-      "Problem solving and programming",
-      "Algorithms"
-    ],
-    "Programming Project": [
-      "Analysis of the problem",
-      "Design of the solution",
-      "Developing the solution",
-      "Evaluation"
-    ]
+    "Biology": {
+      "Cell biology": [
+        "Cell structure",
+        "Cell division",
+        "Transport in cells"
+      ],
+      "Organisation": [
+        "Principles of organisation",
+        "Animal tissues, organs and organ systems",
+        "Plant tissues, organs and systems"
+      ],
+      "Infection and response": [
+        "Communicable diseases",
+        "Human defence systems",
+        "Vaccination",
+        "Antibiotics and painkillers"
+      ],
+      "Bioenergetics": [
+        "Photosynthesis",
+        "Respiration"
+      ],
+      "Homeostasis and response": [
+        "Homeostasis",
+        "Human endocrine system",
+        "Hormones in human reproduction",
+        "Feedback systems"
+      ],
+      "Inheritance, variation and evolution": [
+        "Reproduction and DNA",
+        "Variation and evolution",
+        "Selective breeding and genetic engineering",
+        "Fossils and extinction",
+        "Classification"
+      ],
+      "Ecology": [
+        "Adaptations, interdependence and competition",
+        "How materials are cycled",
+        "Biodiversity and human impact"
+      ]
+    },
+    "Chemistry": {
+      "Atomic structure and the periodic table": [
+        "A simple model of the atom",
+        "Periodic table",
+        "Group 0, Group 1 and Group 7"
+      ],
+      "Bonding, structure, and the properties of matter": [
+        "Chemical bonds: ionic, covalent and metallic",
+        "Properties of substances",
+        "Structure and bonding of carbon"
+      ],
+      "Quantitative chemistry": [
+        "Conservation of mass and balanced equations",
+        "Relative formula mass",
+        "Amounts of substances in equations and moles"
+      ],
+      "Chemical changes": [
+        "Reactivity of metals",
+        "Reactions of acids",
+        "Electrolysis"
+      ],
+      "Energy changes": [
+        "Exothermic and endothermic reactions",
+        "Reaction profiles and bond energy calculations"
+      ],
+      "The rate and extent of chemical change": [
+        "Rate of reaction",
+        "Reversible reactions and dynamic equilibrium"
+      ],
+      "Organic chemistry": [
+        "Crude oil, hydrocarbons and alkanes",
+        "Cracking and alkenes"
+      ],
+      "Chemical analysis": [
+        "Purity, formulations and chromatography",
+        "Identification of common gases"
+      ],
+      "Chemistry of the atmosphere": [
+        "The Earth's early atmosphere",
+        "Greenhouse gases and global climate change",
+        "Atmospheric pollutants"
+      ],
+      "Using resources": [
+        "Using resources and potable water",
+        "Life cycle assessment and recycling"
+      ]
+    },
+    "Physics": {
+      "Energy": [
+        "Energy changes in a system",
+        "Conservation and dissipation of energy",
+        "National and global energy resources"
+      ],
+      "Electricity": [
+        "Current, potential difference and resistance",
+        "Series and parallel circuits",
+        "Domestic uses and safety",
+        "Energy transfers"
+      ],
+      "Particle model of matter": [
+        "Changes of state and density",
+        "Internal energy and specific latent heat",
+        "Particle model and pressure"
+      ],
+      "Atomic structure": [
+        "Atoms and isotopes",
+        "Atoms and nuclear radiation",
+        "Radioactive decay and half-life"
+      ],
+      "Forces": [
+        "Forces and their interactions",
+        "Work done and energy transfer",
+        "Forces and elasticity",
+        "Forces and motion",
+        "Momentum"
+      ],
+      "Waves": [
+        "Waves in air, fluids and solids",
+        "Electromagnetic waves"
+      ],
+      "Magnetism and electromagnetism": [
+        "Poles of a magnet and magnetic fields",
+        "Electromagnetism and the motor effect"
+      ]
+    }
   }
 }

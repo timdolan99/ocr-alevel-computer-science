@@ -121,17 +121,36 @@ if st.session_state.active_topic is None:
     st.markdown(f'<div class="chat-header">🎓 {COURSE_TITLE} Socratic Coach</div>', unsafe_allow_html=True)
     st.markdown('<div class="selection-card">', unsafe_allow_html=True)
     st.subheader("🎯 Select Revision Target")
-    st.write("Choose a unit and subtopic to begin your practice session:")
+    st.write("Choose a subject, topic, and subtopic to begin your practice session:")
     
-    unit_keys = list(TOPICS.keys()) if TOPICS else ["General"]
-    selected_unit = st.selectbox("📘 Step 1: Choose Unit / Section:", options=unit_keys)
-    
-    subtopic_options = TOPICS.get(selected_unit, [])
-    if not subtopic_options:
-        subtopic_options = [selected_unit]
-    
-    selected_subtopic = st.selectbox("🔍 Step 2: Choose Specific Topic:", options=subtopic_options)
-    
+    # Check if topics dictionary is 3-tier (nested dict) or 2-tier (dict of lists)
+    first_value = next(iter(TOPICS.values())) if TOPICS else []
+    is_3_tier = isinstance(first_value, dict)
+
+    if is_3_tier:
+        # Step 1: Subject (Biology, Chemistry, Physics)
+        subjects = list(TOPICS.keys())
+        selected_subject = st.selectbox("🔬 Step 1: Choose Science Subject:", options=subjects)
+        
+        # Step 2: Main Unit/Topic (e.g. Cell biology, Forces)
+        unit_dict = TOPICS.get(selected_subject, {})
+        unit_keys = list(unit_dict.keys())
+        selected_unit = st.selectbox("📘 Step 2: Choose Unit / Topic:", options=unit_keys)
+        
+        # Step 3: Specific Subtopic (e.g. Cell structure)
+        subtopic_options = unit_dict.get(selected_unit, [])
+        selected_subtopic = st.selectbox("🔍 Step 3: Choose Specific Subtopic:", options=subtopic_options)
+    else:
+        # Fallback for 2-tier structure (Topic -> Subtopic)
+        unit_keys = list(TOPICS.keys()) if TOPICS else ["General"]
+        selected_unit = st.selectbox("📘 Step 1: Choose Unit / Topic:", options=unit_keys)
+        
+        subtopic_options = TOPICS.get(selected_unit, [])
+        if not subtopic_options:
+            subtopic_options = [selected_unit]
+        
+        selected_subtopic = st.selectbox("🔍 Step 2: Choose Specific Subtopic:", options=subtopic_options)
+
     st.write("")
     if st.button("🚀 Start Socratic Session", type="primary", use_container_width=True):
         st.session_state.active_unit = selected_unit
