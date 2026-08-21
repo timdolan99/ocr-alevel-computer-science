@@ -1,6 +1,6 @@
 # 🎓 MSc Socratic CS Chatbot
 
-An adaptive Socratic tutoring system built for AQA GCSE Geography using LangGraph, LangChain, and Streamlit. This application dynamically ingests specification documents and guides students through computer science concepts using pedagogical scaffolding and safety-critical guardrails.
+An adaptive Socratic tutoring system built for OCR A-level Computer Science using LangGraph, LangChain, and Streamlit. This application dynamically ingests specification documents and guides students through computer science concepts using pedagogical scaffolding and safety-critical guardrails. As an A-level course, this features a 7-turn socratic dialogue.
 
 ## 📂 Directory Structure
 
